@@ -37,7 +37,8 @@ Here’s a brief summary of LSTM, Prophet, and SARIMA models, commonly used in s
      - **Seasonal Component:** Adds seasonal terms to handle seasonality, allowing it to model both trends and cycles.
    - **Application in stock price prediction:** SARIMA can be used when stock price data shows clear seasonal patterns, such as annual or quarterly cycles. It helps model the dependencies between past and future stock prices, accounting for both short-term fluctuations and long-term trends.
 
-These models are widely used in stock price forecasting due to their ability to capture trends, seasonality, and complex dependencies in time series data. LSTM is more flexible and powerful for long-term sequences, while Prophet and SARIMA are strong for handling seasonality and structured trends.
+# **Dataset**
+
 
 
 
