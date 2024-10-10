@@ -16,27 +16,13 @@ A time series consists of several components:
   
 - **Cyclic Data:** This reflects repeating patterns in data over time, influenced by cycles such as weather, animal growth, and human consumer behavior. Identifying cycles helps in more accurate forecasting.
 # **Model**
-Here’s a brief summary of LSTM, Prophet, and SARIMA models, commonly used in stock price forecasting:
 
-## 1. **LSTM (Long Short-Term Memory)**
-   - **Overview:** LSTM is a type of recurrent neural network (RNN) designed to handle sequential data by learning long-term dependencies. It is especially useful in time series forecasting, as it addresses the vanishing gradient problem faced by traditional RNNs, allowing it to remember important patterns over time.
-   - **How it works:** LSTM consists of memory cells that maintain information over long sequences of time steps. It uses gates (input, forget, and output gates) to regulate the flow of information, deciding what to keep, forget, or output at each step.
-   - **Application in stock price prediction:** LSTM can capture long-term trends and short-term patterns from past stock prices, making it effective for complex time series with trends, seasonality, and irregular patterns.
+* Prophet: A time series forecasting model developed by Facebook, designed to be user-friendly and effective for data with seasonal trends and cycles. Prophet is flexible, handles missing data well, and is good at modeling long-term trends and outliers.
 
-## 2. **Prophet**
-   - **Overview:** Prophet is a forecasting tool developed by Facebook, designed for business time series data. It is particularly useful for time series with daily observations and strong seasonal effects. Prophet is flexible and can handle missing data and large outliers.
-   - **How it works:** Prophet models time series data as a sum of three components: trend, seasonality, and holidays (or other events). It uses piecewise linear or logistic growth models for trend, Fourier series to capture seasonality, and a list of known events (such as holidays) to account for special events.
-   - **Application in stock price prediction:** While Prophet is more frequently used for business and marketing data, it can also model stock price trends and seasonality, particularly when stock prices exhibit consistent cycles or growth patterns.
+* SARIMA (Seasonal ARIMA): An extension of the ARIMA (AutoRegressive Integrated Moving Average) model, incorporating a seasonal component to handle cyclic data. SARIMA combines autoregressive, moving average, and differencing terms, along with seasonal factors for forecasting.
 
-## 3. **SARIMA (Seasonal AutoRegressive Integrated Moving Average)**
-   - **Overview:** SARIMA is an extension of the ARIMA model, which is widely used for time series forecasting. SARIMA includes components to handle both seasonal and non-seasonal data, making it ideal for time series with repeating seasonal patterns.
-   - **How it works:** SARIMA consists of several components:
-     - **AR (AutoRegressive):** Relies on past values of the time series.
-     - **I (Integrated):** Uses differencing to make the time series stationary.
-     - **MA (Moving Average):** Models the relationship between the forecast and past forecast errors.
-     - **Seasonal Component:** Adds seasonal terms to handle seasonality, allowing it to model both trends and cycles.
-   - **Application in stock price prediction:** SARIMA can be used when stock price data shows clear seasonal patterns, such as annual or quarterly cycles. It helps model the dependencies between past and future stock prices, accounting for both short-term fluctuations and long-term trends.
-
+* LSTM (Long Short-Term Memory): A type of deep recurrent neural network (RNN) used for time series data. LSTM excels at retaining both long-term and short-term dependencies, making it effective for forecasting complex and nonlinear sequences.
+* 
 # **Dataset**
 The dataset is the price and volume data of the stock code HPG starting from 01-01-2019 to 01-04-2024\
 The reason for choosing such a time period is because:
