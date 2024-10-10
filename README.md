@@ -35,11 +35,11 @@ Thus, the data will cover the main stages of the stock market, helping the model
 
 # **Result**
 Model prediction charts:
-- Prophet
+- Prophet\
 ![image](https://github.com/user-attachments/assets/16b6a46f-ac81-463e-a081-40779ec08e13)
-- LSTM
+- LSTM\
 ![image](https://github.com/user-attachments/assets/493fcb2c-e4ac-441b-ae01-298c72b6e45e)
-- SARIMA
+- SARIMA\
 ![newplot](https://github.com/user-attachments/assets/0a01a515-67cd-44e1-a584-29c9ba952c12)
 
 Forecast results:
