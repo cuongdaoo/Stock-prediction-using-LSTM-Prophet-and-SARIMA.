@@ -33,7 +33,7 @@ During this period, there were 3 phases: **down-trend, sideway, uptrend**.\
 Thus, the data will cover the main stages of the stock market, helping the model predict more accurately under different conditions.\
 ![Train data (80%) (1)](https://github.com/user-attachments/assets/1242e95e-01b0-4566-96bb-6bb081b05f1e)
 
-# **🔔 Result🔔 **
+# **🔔 Result 🔔 **
 Model prediction charts:
 - Prophet\
 ![image](https://github.com/user-attachments/assets/16b6a46f-ac81-463e-a081-40779ec08e13)
