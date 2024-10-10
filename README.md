@@ -49,8 +49,13 @@ Forecast results:
 | Prophet | -4.716500  | 2666.463405 | 0.101897 | 7.490235e+06  | 2736.829365|
 | SARIMA  | -197.576265| 16110.646623| 0.610972 | 2.601912e+08  | 16130.442339|
 
+From the above results, we can see that in the dataset range 01/01/2019 - 01/04/2024, the LSTM model is the best, followed by Prophet and finally SARIMA
 
+# **Conclusion**
 
+Several approaches have been applied in this study to forecast stock prices in the Vietnamese stock market. The research shows that for the collected stock data, the LSTM model provides predictions that closely match real-world values. However, the results in this study are based on interpolation from limited data and are not representative of the entire Vietnamese stock market. They are intended for reference purposes only, and the model should not be used as a permanent forecasting tool.
+
+The results indicate that stock prices in Vietnam seem to be significantly influenced by external factors such as market economy conditions and investor psychology. Therefore, when applying forecasting methods, external factors, government policies, and both domestic and global economic constraints should be considered. Combining different models can provide better predictions with more comprehensive data than individual models.
 
 
 
