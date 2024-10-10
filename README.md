@@ -27,6 +27,9 @@ A time series consists of several components:
 The dataset is the price and volume data of the stock code HPG starting from 01-01-2019 to 01-04-2024\
 The reason for choosing such a time period is because:
 During this period, there were 3 phases: **down-trend, sideway, uptrend**.\
+- 2019-2020: Down-trend phase
+- 2020-2021: Sideway phase
+- 2021-2022: Up-trend phase
 Thus, the data will cover the main stages of the stock market, helping the model predict more accurately under different conditions.\
 ![Train data (80%) (1)](https://github.com/user-attachments/assets/1242e95e-01b0-4566-96bb-6bb081b05f1e)
 
